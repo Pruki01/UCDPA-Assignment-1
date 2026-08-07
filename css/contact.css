@@ -1,25 +1,63 @@
 :root{
 
+    --form-vm: 5rem;
     --form-width: 70vw;
+    --input-mar-top: 0.5rem;
 
+    --submit-w-pad: 0.5rem;
+    --submit-h-pad: 0.33rem;
+
+    --textarea-height: 45vh;
 }
 
 main{
     display: flex;
     flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
 }
 
 form{
 
+    font-size: 1.3rem;
     width: var(--form-width);
-
+    margin: var(--form-vm) auto;
 }
 
 form > div{
 
     width: calc(var(--form-width) - 3rem);
+    margin-top: var(--input-mar-top);
 
+    display: flex;
+    flex-direction: column;
+
+}
+
+textarea{
+
+    width: 100%;
+    height: var(--textarea-height);
+}
+
+input[type=submit]{
+
+    margin-top: var(--input-mar-top);
+    font-size: 1.2rem;
+    padding: var(--submit-h-pad) var(--submit-w-pad);
+
+}
+
+@media screen and (max-width: 500px){
+    
+    :root{
+
+        --page-width: 95vw;
+        --form-width: 85vw;
+
+    }
+
+   form > div{
+
+        width: var(--form-width);
+
+   }
 }
