@@ -1,0 +1,25 @@
+:root{
+
+    --form-width: 70vw;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+
+    width: var(--form-width);
+
+}
+
+form > div{
+
+    width: calc(var(--form-width) - 3rem);
+
+}
