@@ -29,6 +29,20 @@ body{
     background-color: var(--background-color);
 }
 
+nav{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a{
+
+    text-decoration: none;
+    color: var(--color);
+
+}
+
 .solo{
 
     width: calc(var(--page-width) - 5vw);
