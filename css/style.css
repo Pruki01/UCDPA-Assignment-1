@@ -15,6 +15,8 @@
     --grid-row-gap: 1.25rem;
     --grid-col-gap: 1.25vw;
 
+    --nav-top-m: 0.66rem;
+
 }
 
 body{
@@ -33,6 +35,8 @@ nav{
 
     display: flex;
     justify-content: space-between;
+    align-items: end;
+    margin-top: var(--nav-top-m);
 
 }
 
@@ -41,6 +45,12 @@ nav a{
     text-decoration: none;
     color: var(--color);
 
+}
+
+.logo{
+
+    font-size: 1.75rem;
+    
 }
 
 .solo{
@@ -105,6 +115,12 @@ nav a{
         grid-template-columns: 1fr;
 
     }
+
+    .logo{
+
+        font-size: 1.5rem;
+
+    }
     
 }
 
@@ -115,5 +131,10 @@ nav a{
         --font-size: 1.05rem;
     }
 
+    .logo{
+
+        font-size: 1.3rem;
+
+    }
 }
 
