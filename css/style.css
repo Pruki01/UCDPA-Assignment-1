@@ -7,7 +7,7 @@
     --color: #f1f5f7;
     --background-color: #763a0f;
     --page-width: 80vw;
-    --font-size: 1.2rem;
+    --font-size: 1.25rem;
     --font-weight: 500;
 
     --nav-top-m: 0.66rem;
@@ -18,6 +18,8 @@
     --footer-pad-top: 1.5rem;
     --footer-pad-bot: 1.5rem;
     --footer-link-colour: rgb(59, 133, 140);
+
+    --nav-link-m-left: 1rem;
 
 }
 
@@ -46,6 +48,13 @@ nav a{
 
     text-decoration: none;
     color: var(--color);
+    margin-left: var(--nav-link-m-left);
+
+}
+
+nav a:hover{
+
+    text-decoration: underline;
 
 }
 
