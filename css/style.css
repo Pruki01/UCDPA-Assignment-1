@@ -7,7 +7,7 @@
     --color: #f1f5f7;
     --background-color: #763a0f;
     --page-width: 80vw;
-    --font-size: 1.25rem;
+    --font-size: 1.35rem;
     --font-weight: 500;
 
     --nav-top-m: 0.66rem;
@@ -15,6 +15,9 @@
     --grid-row-gap: 1.25rem;
     --grid-col-gap: 1.25vw;
 
+    --title-m-top: 7.5rem;
+    --title-m-bot: 1.5rem;
+    
     --footer-pad-top: 1.5rem;
     --footer-pad-bot: 1.5rem;
     --footer-link-colour: rgb(59, 133, 140);
@@ -62,6 +65,14 @@ nav a:hover{
 
     font-size: 1.75rem;
     
+}
+
+.title{
+    
+    text-align: center;
+    margin-top: var(--title-m-top);
+    margin-bottom: var(--title-m-bot);
+
 }
 
 footer{
