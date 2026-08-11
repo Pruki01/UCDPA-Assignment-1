@@ -2,7 +2,10 @@
 
     --form-vm: 5rem;
     --form-width: 70vw;
+
     --input-mar-top: 0.5rem;
+    --input-pad-h: 0.5rem;
+    --input-pad-w: 0.25rem;
 
     --submit-w-pad: 0.5rem;
     --submit-h-pad: 0.33rem;
@@ -30,6 +33,11 @@ form > div{
     display: flex;
     flex-direction: column;
 
+}
+
+input, select{
+
+    padding: var(--input-pad-h) var(--input-pad-w);
 }
 
 textarea{
